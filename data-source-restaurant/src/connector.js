@@ -3,8 +3,8 @@ import { GraphQLConnector } from '@gramps/gramps-express';
 // TODO: change `YourDataSourceConnector` to a descriptive name
 export default class YourDataSourceConnector extends GraphQLConnector {
   /**
-   * TODO: describe this API endpoint
+   * Connector for a restaurant collection
    * @member {string}
    */
-  apiBaseUri = `https://example.org/v2`;
+  apiBaseUri = `https://dontwannauseurl.butadborm`;
 }

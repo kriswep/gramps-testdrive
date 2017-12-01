@@ -20,6 +20,7 @@
     "live-data": "npm run dev -- --live",
     "lint": "eslint src/",
     "test:unit": "cross-env NODE_ENV=test jest --coverage",
+    "test:watch": "npm run test:unit -- --watch",
     "test": "npm run lint --silent && npm run test:unit --silent",
     "semantic-release":
       "semantic-release pre && npm publish && semantic-release post"
